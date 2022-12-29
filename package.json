@@ -1,0 +1,11 @@
+{
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon index.js --ignore out/ --ignore data.json --ext js,jsx,css",
+    "live": "node scripts/live.js"
+  },
+  "dependencies": {
+    "stellar": "file:."
+  }
+}
