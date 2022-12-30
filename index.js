@@ -4,5 +4,5 @@ listen({
   callback() {
     console.log("listening");
   },
-  live: true,
+  live: false,
 });

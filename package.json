@@ -2,8 +2,8 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "test": "nodemon index.js --ignore out/ --ignore data.json --ext js,jsx,css",
-    "live": "node scripts/live.js"
+    "test": "node index.js test",
+    "start": "node index.js"
   },
   "dependencies": {
     "stellar": "file:."
